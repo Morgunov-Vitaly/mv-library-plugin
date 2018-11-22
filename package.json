@@ -1,0 +1,30 @@
+{
+	"name": "mv-library",
+	"version": "1.0.0",
+	"description": "mv-library  плагин для интеграции корпоративной библиотеки",
+	"main": "gulpfile.js",
+	"dependencies": {
+		"vue": "^2.5.17",
+		"vue-resource": "^1.5.1",
+		"vue-router": "^3.0.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.1.6",
+		"@babel/preset-env": "^7.1.6",
+		"del": "^3.0.0",
+		"gulp": "^4.0.0",
+		"gulp-autoprefixer": "^6.0.0",
+		"gulp-babel": "^8.0.0",
+		"gulp-clean-css": "^3.10.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-sass": "^4.0.2",
+		"gulp-sourcemaps": "^2.6.4",
+		"gulp-uglify": "^3.0.1",
+		"node-sass": "^4.9.4"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Morgunov Vitaly",
+	"license": "MIT"
+}

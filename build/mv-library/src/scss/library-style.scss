@@ -1,0 +1,26 @@
+/* 
+    Created on : Nov 21, 2018, 5:45:34 PM
+    Author     : Моргунов Виталий
+*/
+
+* {
+ padding: 0;
+ margin: 0;
+}
+
+.firstClass {
+ background: #f00;
+
+ &__active {
+   border: 1px solid #000;
+
+   &-on {
+     border-color: #0f0;
+   }
+ }
+}
+
+.hello {
+ font-size: 60px;
+ color: #000000;
+}
